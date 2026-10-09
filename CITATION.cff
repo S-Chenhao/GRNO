@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the GRNO paper when using this code."
+title: "Green-Routed Neural Operators: Physics Determines Where the Network Reads"
+type: software
+authors:
+  - family-names: Si
+    given-names: Chenhao
+  - family-names: Yan
+    given-names: Ming
+repository-code: "https://github.com/S-Chenhao/GRNO"
+url: "https://arxiv.org/abs/2610.05337"
+preferred-citation:
+  type: article
+  title: "Green-Routed Neural Operators: Physics Determines Where the Network Reads"
+  authors:
+    - family-names: Si
+      given-names: Chenhao
+    - family-names: Yan
+      given-names: Ming
+  journal: arXiv
+  year: 2026
+  doi: "10.48550/arXiv.2610.05337"
+  url: "https://arxiv.org/abs/2610.05337"
+

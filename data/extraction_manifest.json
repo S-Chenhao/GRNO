@@ -1,0 +1,135 @@
+{
+  "generate_ns_sqg.ipynb": {
+    "source": "GRNO_Kolmogorov_NS_and_SQG_128(1).ipynb",
+    "notes": [
+      "AST-selective extraction of original cells 3,4,6,7,8,11,12; no solver function edited.",
+      "Root/import cell replaced for portability and manual dependency setup. Legacy data_dir relocated under ROOT using dataclasses.replace; fingerprints unchanged.",
+      "Training switches and model version removed; original RunConfig and profiles retained with inactive manifest fields.",
+      "Model and visualization cells omitted; outputs/execution counts cleared."
+    ],
+    "source_cells": [
+      null,
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ]
+    ],
+    "source_sha256": "2d1b035e437bac17eaca69c3069ac217258a2c382ff4b9e8235189e5e7b8d2d4",
+    "lines": 696
+  },
+  "generate_vlasov_poisson.ipynb": {
+    "source": "GRNO_MHD_and_VlasovPoisson_128 (1).ipynb",
+    "notes": [
+      "Original cells 3,4,8,10,12 selected by AST; VlasovPoissonSolver copied unchanged.",
+      "All MHD configs/solver/utility/model and unconditional generation/cache statements removed; VP audit keeps original calculations and thresholds.",
+      "Shared manifest conditional branches fixed to VP through AST; no new numerical algorithm.",
+      "Hardcoded CUDA_VISIBLE_DEVICES=2 omitted with old import cell; kernel inherits its device visibility. Data root relocation only.",
+      "Inactive RunConfig model/training fields retained for manifest provenance. VP normalization is computed by the released training reader, not this generator."
+    ],
+    "source_cells": [
+      null,
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        8
+      ],
+      [
+        10
+      ],
+      [
+        12
+      ]
+    ],
+    "source_sha256": "fa057eedaae799498fb03f2a1073a489b8ad92f24afce76fd34e73ebd3cb8361",
+    "lines": 269
+  },
+  "generate_keller_segel3d.ipynb": {
+    "source": "GRNO_KellerSegel3D_64.ipynb",
+    "notes": [
+      "AST-selective extraction of original cells 4,5,7,9,11,13; solver, simulator audits, generation, and training statistics unchanged.",
+      "Neural models, training, checkpoint testing, window-manifest generation, and plots omitted.",
+      "Root/import cell replaced for portability and manual dependencies; output/checkpoint/manifest roots omitted.",
+      "Original RunConfig profiles retained, but their training fields are inactive."
+    ],
+    "source_cells": [
+      null,
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        7
+      ],
+      [
+        9
+      ],
+      [
+        11
+      ],
+      [
+        13
+      ]
+    ],
+    "source_sha256": "5ca6cc8d53f0abd70465311309797f088dfe503280b9f278257fb67c348ccee5",
+    "lines": 585
+  },
+  "generate_porous_convection3d.ipynb": {
+    "source": "GRNO_PorousConvection3D_Ra1000_64 (3).ipynb",
+    "notes": [
+      "AST-selective extraction of original cells 4,5,7,9,11,13,15. SlabDarcyGreen3D, MixedBoundaryDiffusion3D, reference integrator, core physics preflight, generation, statistics, and readiness audit unchanged.",
+      "Unused wrong-kernel intervention class, neural architecture, training, checkpoint evaluation, model-result plots, and training window manifests omitted.",
+      "Later optional spatial/temporal refinement audit cell 29 omitted; no such audit results claimed.",
+      "Root/import cell replaced for portability and manual dependencies; output/checkpoint/manifest directories omitted.",
+      "Legacy RunConfig fields retained for the original readiness-audit horizon and fixed starts."
+    ],
+    "source_cells": [
+      null,
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        7
+      ],
+      [
+        9
+      ],
+      [
+        11
+      ],
+      [
+        13
+      ],
+      [
+        15
+      ]
+    ],
+    "source_sha256": "9387eec64c0cf2aa65bc1e3f3ae035e0d3987c13699aceaf86530d995fb41d40",
+    "lines": 1070
+  }
+}

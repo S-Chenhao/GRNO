@@ -1,0 +1,10 @@
+# Imported dependencies for the released training/evaluation notebooks.
+# Install a PyTorch build suitable for your CUDA environment.
+# Versions are not a pinned or end-to-end validated reproduction environment.
+torch>=2.0
+numpy
+pandas
+matplotlib
+tqdm
+ipython
+jupyterlab
