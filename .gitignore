@@ -1,0 +1,23 @@
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated datasets and experiment outputs
+grno_ns_sqg_data/
+grno_mhd_vp_data/
+data/keller_segel3d/
+data/porous_convection3d/
+outputs/
+manifests/
+*.npy
+*.npz
+*.pt
+*.pth
+*.partial
+
+# Local system files
+.DS_Store
+Thumbs.db
